@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class MenuScript : MonoBehaviour {
 
+	public void ZaladujScene(string scene_name){
+		
+	}
+
+
 	// Use this for initialization
 	void Start () {
 		

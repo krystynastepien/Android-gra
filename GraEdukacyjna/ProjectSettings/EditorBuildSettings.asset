@@ -17,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/LoseGame.unity
     guid: 11d99ca6454538541981058b18783505
+  - enabled: 1
+    path: Assets/GraScene.unity
+    guid: 52a048d1c8ea7ae42835e70c584a8ff7

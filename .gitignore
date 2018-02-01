@@ -1,9 +1,20 @@
 
 *.ide-shm
 *.ide-wal
+<<<<<<< HEAD
 *.ide-wal
 *.ide-shm
 *.cache
 GraEdukacyjna/.vs/GraEdukacyjna/v15/.suo
 GraEdukacyjna/.vs/GraEdukacyjna/v15/Server/sqlite3/storage.ide-shm
 GraEdukacyjna/.vs/GraEdukacyjna/v15/Server/sqlite3/storage.ide-wal
+=======
+GraEdukacyjna/.vs/GraEdukacyjna/v15/.suo
+GraEdukacyjna/.vs/GraEdukacyjna/v15/Server/sqlite3/storage.ide-wal
+*.ide-shm
+*.ide-wal
+>>>>>>> Krysia
+*.cache
+*.ide-wal
+*.ide-shm
+GraEdukacyjna/.vs/GraEdukacyjna/v15/.suo

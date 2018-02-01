@@ -10,6 +10,7 @@ GraEdukacyjna/.vs/GraEdukacyjna/v15/Server/sqlite3/storage.ide-shm
 GraEdukacyjna/.vs/GraEdukacyjna/v15/Server/sqlite3/storage.ide-wal
 =======
 GraEdukacyjna/.vs/GraEdukacyjna/v15/.suo
+<<<<<<< HEAD
 GraEdukacyjna/.vs/GraEdukacyjna/v15/Server/sqlite3/storage.ide-wal
 *.ide-shm
 *.ide-wal
@@ -18,3 +19,5 @@ GraEdukacyjna/.vs/GraEdukacyjna/v15/Server/sqlite3/storage.ide-wal
 *.ide-wal
 *.ide-shm
 GraEdukacyjna/.vs/GraEdukacyjna/v15/.suo
+=======
+>>>>>>> Krysia

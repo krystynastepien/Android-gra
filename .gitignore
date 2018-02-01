@@ -2,3 +2,6 @@
 *.ide-shm
 *.ide-wal
 GraEdukacyjna/.vs/GraEdukacyjna/v15/.suo
+GraEdukacyjna/.vs/GraEdukacyjna/v15/Server/sqlite3/storage.ide-wal
+*.ide-shm
+*.ide-wal

@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Dodawanie.unity
+=======
+- path: Assets/GraScene.unity
+>>>>>>> Krysia
   isLoaded: 1
   isActive: 1

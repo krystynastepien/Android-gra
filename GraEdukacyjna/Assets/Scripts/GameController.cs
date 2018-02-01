@@ -52,11 +52,25 @@ public class GameController : MonoBehaviour {
 
 	public void onTrueButtonClick()
     {
+        if (trueResult == falseResult)
+        {
+            createMath();
+        }
+        else
+        {
 
+        }
     }
 
     public void onFalseButtonClick()
     {
+        if(trueResult != falseResult)
+        {
+            createMath();
+        }
+        else
+        {
 
+        }
     }
 }

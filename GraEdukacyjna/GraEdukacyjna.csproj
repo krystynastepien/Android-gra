@@ -213,18 +213,6 @@
     </Reference>
     <Reference Include="TextMeshPro-2017.2-1.0.56-Editor">
       <HintPath>Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.2-1.0.56-Editor.dll</HintPath>
-<<<<<<< HEAD
-    </Reference>
-    <Reference Include="TextMeshPro-2017.2-1.0.56-Runtime">
-      <HintPath>Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.2-1.0.56-Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/Krystyna/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Users/Krystyna/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
-=======
     </Reference>
     <Reference Include="TextMeshPro-2017.2-1.0.56-Runtime">
       <HintPath>Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.2-1.0.56-Runtime.dll</HintPath>
@@ -235,12 +223,22 @@
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>C:/Users/oem/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
->>>>>>> Asia
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\HONETi\mobile_cartoon_GUI\Scripts\switch_scenes.cs" />
+    <Compile Include="Assets\Mobile Game GUI Vector Pack\DEMO_Scripts\DEMO_CreateWindowShareLink.cs" />
+    <Compile Include="Assets\Mobile Game GUI Vector Pack\DEMO_Scripts\DEMO_DestroyWindow.cs" />
+    <Compile Include="Assets\Mobile Game GUI Vector Pack\DEMO_Scripts\DEMO_GraphicsManager.cs" />
+    <Compile Include="Assets\Mobile Game GUI Vector Pack\DEMO_Scripts\DEMO_NavigationInformation.cs" />
+    <Compile Include="Assets\Mobile Game GUI Vector Pack\DEMO_Scripts\DEMO_SceneNavigation.cs" />
+    <Compile Include="Assets\Mobile Game GUI Vector Pack\DEMO_Scripts\DEMO_SoundManager.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\GameControllerMnoz.cs" />
+    <Compile Include="Assets\Scripts\GameControllerOdejm.cs" />
     <Compile Include="Assets\Scripts\GameValues.cs" />
     <Compile Include="Assets\Scripts\LoseGame.cs" />
+    <Compile Include="Assets\Scripts\LoseGameMnoz.cs" />
+    <Compile Include="Assets\Scripts\LoseGameOdejm.cs" />
     <Compile Include="Assets\Scripts\MenuScript.cs" />
     <Compile Include="Assets\Scripts\Quit.cs" />
     <Compile Include="Assets\Scripts\SwitchScript.cs" />

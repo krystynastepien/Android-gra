@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/GameOver.unity
+=======
+- path: Assets/Odejmowanie.unity
+>>>>>>> Asia
   isLoaded: 1
   isActive: 1

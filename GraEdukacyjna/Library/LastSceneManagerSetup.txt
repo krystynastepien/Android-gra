@@ -1,12 +1,8 @@
 sceneSetups:
 <<<<<<< HEAD
-<<<<<<< HEAD
 - path: Assets/GameOver.unity
 =======
 - path: Assets/Odejmowanie.unity
 >>>>>>> Asia
-=======
-- path: Assets/MenuScene.unity
->>>>>>> Krysia
   isLoaded: 1
   isActive: 1

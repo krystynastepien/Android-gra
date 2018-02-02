@@ -1,8 +1,12 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Dodawanie.unity
 =======
 - path: Assets/GraScene.unity
 >>>>>>> Krysia
+=======
+- path: Assets/Mnozenie.unity
+>>>>>>> Asia
   isLoaded: 1
   isActive: 1

@@ -28,7 +28,7 @@ public class GameController : MonoBehaviour {
         leftNumber = Random.Range(0, 9);
         rightNumber = Random.Range(0, 9);
 
-        mathOperator = Random.Range(0,3);
+        mathOperator = Random.Range(0,1);
 
         switch (mathOperator)
         {
@@ -38,18 +38,7 @@ public class GameController : MonoBehaviour {
                 mathText.GetComponent<TextMeshProUGUI>().text = leftNumber.ToString() + "+" + rightNumber.ToString();
                 resultTekst.GetComponent<TextMeshProUGUI>().text = falseResult.ToString();
                 break; //+
-            case 1:
-                trueResult = leftNumber - rightNumber;
-                falseResult = trueResult + Random.Range(-2, 3);
-                mathText.GetComponent<TextMeshProUGUI>().text = leftNumber.ToString() + "-" + rightNumber.ToString();
-                resultTekst.GetComponent<TextMeshProUGUI>().text = falseResult.ToString();
-                break; //-
-            case 2:
-                trueResult = leftNumber * rightNumber;
-                falseResult = trueResult + Random.Range(-2, 3);
-                mathText.GetComponent<TextMeshProUGUI>().text = leftNumber.ToString() + "*" + rightNumber.ToString();
-                resultTekst.GetComponent<TextMeshProUGUI>().text = falseResult.ToString();
-                break; //*
+            
         }
 
         scoreText.GetComponent<Text>().text = currentScore.ToString();

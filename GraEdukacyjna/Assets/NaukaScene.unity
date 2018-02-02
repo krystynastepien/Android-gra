@@ -239,6 +239,7 @@ GameObject:
   - component: {fileID: 589799206}
   - component: {fileID: 589799205}
   - component: {fileID: 589799204}
+  - component: {fileID: 589799207}
   m_Layer: 0
   m_Name: ButtonDodawanie
   m_TagString: Untagged
@@ -262,7 +263,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: 266}
+  m_AnchoredPosition: {x: 39, y: 160}
   m_SizeDelta: {x: 208, y: 48.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &589799204
@@ -304,9 +305,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 950811136}
-        m_MethodName: changeToScene
-        m_Mode: 3
+      - m_Target: {fileID: 589799207}
+        m_MethodName: Open_Scene_Dodawanie
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -350,6 +351,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 589799202}
+--- !u!114 &589799207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 589799202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26fd6e0ef65823c47b34941687253844, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &625028711
 GameObject:
   m_ObjectHideFlags: 0
@@ -629,6 +641,7 @@ GameObject:
   - component: {fileID: 1266214498}
   - component: {fileID: 1266214497}
   - component: {fileID: 1266214496}
+  - component: {fileID: 1266214499}
   m_Layer: 0
   m_Name: ButtonMnozenie
   m_TagString: Untagged
@@ -652,7 +665,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 105}
+  m_AnchoredPosition: {x: 39, y: -1}
   m_SizeDelta: {x: 208, y: 48.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1266214496
@@ -694,9 +707,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 950811136}
-        m_MethodName: changeToScene
-        m_Mode: 3
+      - m_Target: {fileID: 1266214499}
+        m_MethodName: Open_Scene_Mnozenie
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -740,6 +753,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1266214494}
+--- !u!114 &1266214499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1266214494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea03e0c3d92671349b942552bacbe578, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1433540109
 GameObject:
   m_ObjectHideFlags: 0
@@ -751,6 +775,7 @@ GameObject:
   - component: {fileID: 1433540113}
   - component: {fileID: 1433540112}
   - component: {fileID: 1433540111}
+  - component: {fileID: 1433540114}
   m_Layer: 0
   m_Name: ButtonCofnij
   m_TagString: Untagged
@@ -774,7 +799,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 32}
+  m_AnchoredPosition: {x: 39, y: -74}
   m_SizeDelta: {x: 208, y: 48.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1433540111
@@ -816,9 +841,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 950811136}
-        m_MethodName: changeToScene
-        m_Mode: 3
+      - m_Target: {fileID: 1433540114}
+        m_MethodName: Open_Scene_MainMenu
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -862,6 +887,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1433540109}
+--- !u!114 &1433540114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1433540109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf6f5724495c78c4db7fb24cf55a2b37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1450738029
 GameObject:
   m_ObjectHideFlags: 0
@@ -873,6 +909,7 @@ GameObject:
   - component: {fileID: 1450738033}
   - component: {fileID: 1450738032}
   - component: {fileID: 1450738031}
+  - component: {fileID: 1450738034}
   m_Layer: 0
   m_Name: ButtonOdejmowanie
   m_TagString: Untagged
@@ -896,7 +933,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 186}
+  m_AnchoredPosition: {x: 39, y: 80}
   m_SizeDelta: {x: 208, y: 48.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1450738031
@@ -938,9 +975,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 950811136}
-        m_MethodName: changeToScene
-        m_Mode: 3
+      - m_Target: {fileID: 1450738034}
+        m_MethodName: Open_Scene_Odejmowanie
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -984,6 +1021,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1450738029}
+--- !u!114 &1450738034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1450738029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9fbb562eaec18c438008fef13cdb40d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1464515264
 GameObject:
   m_ObjectHideFlags: 0
@@ -1016,8 +1064,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 30.549988, y: -74}
-  m_SizeDelta: {x: 61.1, y: 172.7}
+  m_AnchoredPosition: {x: 159, y: -0.99999}
+  m_SizeDelta: {x: 371.7, y: 37.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1464515266
 MonoBehaviour:

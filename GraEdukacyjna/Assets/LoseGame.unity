@@ -651,7 +651,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1123741325}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4401347fd9be6ef4d9916006e2c92a68, type: 3}
+  m_Script: {fileID: 11500000, guid: d902b7a50e6feae4b960d13d95c1646b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1123741328
@@ -694,8 +694,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1123741327}
-        m_MethodName: changeToScene
-        m_Mode: 3
+        m_MethodName: Open_Scene_NaukaScene
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -966,8 +966,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1713121757}
-        m_MethodName: changeToScene
-        m_Mode: 3
+        m_MethodName: Open_Scene_MainMenu
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1019,7 +1019,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1713121752}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4401347fd9be6ef4d9916006e2c92a68, type: 3}
+  m_Script: {fileID: 11500000, guid: bf6f5724495c78c4db7fb24cf55a2b37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2144591138

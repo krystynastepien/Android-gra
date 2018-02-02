@@ -243,6 +243,17 @@
     <Compile Include="Assets\Scripts\LoseGameMnoz.cs" />
     <Compile Include="Assets\Scripts\LoseGameOdejm.cs" />
     <Compile Include="Assets\Scripts\MenuScript.cs" />
+    <Compile Include="Assets\Scripts\Quit.cs" />
+    <Compile Include="Assets\Scripts\SceneSwitch\OpenDodawanieScene.cs" />
+    <Compile Include="Assets\Scripts\SceneSwitch\OpenGameOverScene.cs" />
+    <Compile Include="Assets\Scripts\SceneSwitch\OpenGraScene.cs" />
+    <Compile Include="Assets\Scripts\SceneSwitch\OpenLoseGameMnozScene.cs" />
+    <Compile Include="Assets\Scripts\SceneSwitch\OpenLoseGameOdejmScene.cs" />
+    <Compile Include="Assets\Scripts\SceneSwitch\OpenLoseGameScene.cs" />
+    <Compile Include="Assets\Scripts\SceneSwitch\OpenMainMenuScene.cs" />
+    <Compile Include="Assets\Scripts\SceneSwitch\OpenMnozenieScene.cs" />
+    <Compile Include="Assets\Scripts\SceneSwitch\OpenNaukaMenuScene.cs" />
+    <Compile Include="Assets\Scripts\SceneSwitch\OpenOdejmowanieScene.cs" />
     <Compile Include="Assets\Scripts\SwitchScript.cs" />
     <Compile Include="Assets\Scripts\TimerScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />

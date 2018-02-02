@@ -6,8 +6,32 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/MenuScene.unity
+    guid: 30066c264c0a9c045a3b9cd71645c154
+  - enabled: 1
     path: Assets/GraScene.unity
     guid: 52a048d1c8ea7ae42835e70c584a8ff7
   - enabled: 1
     path: Assets/GameOver.unity
     guid: adfb88014a0341f4c86ef7ff02f4367b
+  - enabled: 1
+    path: Assets/Dodawanie.unity
+    guid: 1b4a455b9e4f25c4995f0638a3de23ca
+  - enabled: 1
+    path: Assets/LoseGame.unity
+    guid: 11d99ca6454538541981058b18783505
+  - enabled: 1
+    path: Assets/LoseGameMnoz.unity
+    guid: c270c9e80b5b6bc4fbb68b9b6f68264f
+  - enabled: 1
+    path: Assets/LoseGameOdejm.unity
+    guid: 35623f59312dae34aafe6755f8c6e891
+  - enabled: 1
+    path: Assets/Mnozenie.unity
+    guid: bc09f863456567545ac07ffe9c4edd3e
+  - enabled: 1
+    path: Assets/NaukaScene.unity
+    guid: c4038948a8d537445a4d6d5a4f98b05c
+  - enabled: 1
+    path: Assets/Odejmowanie.unity
+    guid: 07a9a9d849614d9479d54fac30f60318

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Mnozenie.unity
+- path: Assets/Odejmowanie.unity
   isLoaded: 1
   isActive: 1

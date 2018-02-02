@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Odejmowanie.unity
+- path: Assets/NaukaScene.unity
   isLoaded: 1
   isActive: 1

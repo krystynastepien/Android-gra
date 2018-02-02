@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/GameOver.unity
-=======
-- path: Assets/Odejmowanie.unity
->>>>>>> Asia
+- path: Assets/MenuScene.unity
   isLoaded: 1
   isActive: 1

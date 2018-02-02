@@ -46,10 +46,14 @@ MonoBehaviour:
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 9
 =======
   controlID: 46
 >>>>>>> Asia
+=======
+  controlID: 112
+>>>>>>> Krysia
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -65,6 +69,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1009
     y: 0
     width: 357
@@ -73,9 +78,14 @@ MonoBehaviour:
     y: 0
     width: 426
 >>>>>>> Asia
+=======
+    x: 1089
+    y: 0
+    width: 277
+>>>>>>> Krysia
     height: 635
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -98,6 +108,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 253
     height: 357
   m_MinSize: {x: 200, y: 200}
@@ -108,6 +119,12 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
 >>>>>>> Asia
+=======
+    width: 269
+    height: 364
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+>>>>>>> Krysia
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -129,14 +146,20 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 357
     width: 1009
     height: 278
 =======
+=======
+>>>>>>> Krysia
     y: 364
-    width: 940
+    width: 1089
     height: 271
+<<<<<<< HEAD
 >>>>>>> Asia
+=======
+>>>>>>> Krysia
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 13}
@@ -144,7 +167,7 @@ MonoBehaviour:
   - {fileID: 13}
   - {fileID: 18}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -228,19 +251,27 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1009
 =======
     width: 940
 >>>>>>> Asia
+=======
+    width: 1089
+>>>>>>> Krysia
     height: 635
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 10
 =======
   controlID: 47
 >>>>>>> Asia
+=======
+  controlID: 10
+>>>>>>> Krysia
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,6 +291,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1009
     height: 357
   m_MinSize: {x: 404, y: 221}
@@ -268,12 +300,19 @@ MonoBehaviour:
   controlID: 11
 =======
     width: 940
+=======
+    width: 1089
+>>>>>>> Krysia
     height: 364
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 48
 >>>>>>> Asia
+=======
+  controlID: 11
+>>>>>>> Krysia
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -289,6 +328,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 253
     y: 0
     width: 756
@@ -303,6 +343,14 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
 >>>>>>> Asia
+=======
+    x: 269
+    y: 0
+    width: 820
+    height: 364
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+>>>>>>> Krysia
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -332,10 +380,10 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 272
-    y: 92
-    width: 812
-    height: 336
+    x: 468
+    y: 181
+    width: 973
+    height: 501
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -360,14 +408,20 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 449
     width: 1007
     height: 257
 =======
+=======
+>>>>>>> Krysia
     y: 456
-    width: 938
+    width: 1087
     height: 250
+<<<<<<< HEAD
 >>>>>>> Asia
+=======
+>>>>>>> Krysia
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -390,6 +444,7 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 4}
     m_SelectedIDs: 6c410000
     m_LastClickedID: 16748
@@ -400,6 +455,12 @@ MonoBehaviour:
     m_LastClickedID: 10278
     m_ExpandedIDs: 000000002628000038280000e42b00008e2c00008e2d0000643200000c34000000ca9a3bffffff7f
 >>>>>>> Asia
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: ac280000
+    m_LastClickedID: 10412
+    m_ExpandedIDs: 00000000ac2800007e2e000000ca9a3bffffff7f
+>>>>>>> Krysia
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -428,10 +489,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000006c410000
 =======
     m_ExpandedIDs: 0000000026280000382800008e2c0000643200000c340000
 >>>>>>> Asia
+=======
+    m_ExpandedIDs: 00000000ac2800007e2e0000
+>>>>>>> Krysia
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -460,6 +525,7 @@ MonoBehaviour:
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedInstanceIDs: c62300008c490000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -467,11 +533,17 @@ MonoBehaviour:
       m_OriginalName: GameOverScore
 =======
     m_ExpandedInstanceIDs: c62300004ca2000000000000
+=======
+    m_ExpandedInstanceIDs: c6230000
+>>>>>>> Krysia
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
       m_OriginalName: 
+<<<<<<< HEAD
 >>>>>>> Asia
+=======
+>>>>>>> Krysia
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -479,15 +551,19 @@ MonoBehaviour:
         width: 0
         height: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_UserData: 28938
 =======
       m_UserData: 0
 >>>>>>> Asia
+=======
+      m_UserData: 0
+>>>>>>> Krysia
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -496,10 +572,14 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ScrollPosition: {x: 0, y: 61.5}
 =======
     m_ScrollPosition: {x: 0, y: 43}
 >>>>>>> Asia
+=======
+    m_ScrollPosition: {x: 0, y: 107}
+>>>>>>> Krysia
     m_GridSize: 16
   m_DirectoriesAreaWidth: 115
 --- !u!114 &14
@@ -525,6 +605,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1011
     y: 92
     width: 355
@@ -533,11 +614,16 @@ MonoBehaviour:
     y: 92
     width: 424
 >>>>>>> Asia
+=======
+    x: 1091
+    y: 92
+    width: 275
+>>>>>>> Krysia
     height: 614
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
-    m_CachedPref: 100
+    m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
@@ -566,6 +652,7 @@ MonoBehaviour:
     x: 0
     y: 92
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 251
     height: 336
   m_TreeViewState:
@@ -582,29 +669,42 @@ MonoBehaviour:
     m_LastClickedID: 18240
     m_ExpandedIDs: be67f0ffd868f0ff386af0ff5a6bf0ff746cf0ff946ff0ff0873f0ff2a74f0fff4f1f1ff0ef3f1ff82faf2ff04fcf2ff1434f4ff1e3cf4ff8afbf4ff6203f5ffc809f5ff46b2f7ff9a49faffc052faffc6b7ffffbac1ffffaee3ffff04e8ffff6ee9ffffeeebffffa6fbffff0000000076380000c8380000dc3800004239000052390000663900006e390000a0390000b8390000c2390000cc3900008e3b0000be3b0000dc3b0000f03b0000a63c0000ca3c0000d23c0000743e0000de3e0000fa3f00002c400000344000004440000090410000a4410000fe4200000843000024430000344300005a4700008e470000
 >>>>>>> Asia
+=======
+    width: 267
+    height: 343
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: e6c8ffff
+    m_LastClickedID: -14106
+    m_ExpandedIDs: e6c8fffff6d1ffff9ad7ffff68d9ffff40dfffff4ce0ffffdee1ffffa2e3fffff0e4ffff88e6ffffd0eeffff60f2ffff1afbffff00000000763a0000
+>>>>>>> Krysia
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: HighScore
-      m_OriginalName: HighScore
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -947476
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 4}
+      m_ClientGUIView: {fileID: 0}
     m_SearchString: 
   m_ExpandedScenes:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - GameOver
 =======
   - Odejmowanie
 >>>>>>> Asia
+=======
+  - MenuScene
+>>>>>>> Krysia
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -631,6 +731,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 255
     y: 92
     width: 752
@@ -639,16 +740,24 @@ MonoBehaviour:
   lastFramingTime: 12421.487004800025
 =======
     x: 205
+=======
+    x: 271
+>>>>>>> Krysia
     y: 92
-    width: 733
+    width: 816
     height: 343
   m_SceneLighting: 1
+<<<<<<< HEAD
   lastFramingTime: 20192.599076414208
 >>>>>>> Asia
+=======
+  lastFramingTime: 132.0297779198838
+>>>>>>> Krysia
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: {x: 62.39111, y: 592.32764, z: -4.125}
     speed: 2
@@ -658,6 +767,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 381.75845, y: 810.1779, z: 11.002299}
 >>>>>>> Asia
+=======
+    m_Target: {x: 1176.9387, y: 300.2624, z: 14.25}
+    speed: 2
+    m_Value: {x: 1176.9387, y: 300.2624, z: 14.25}
+>>>>>>> Krysia
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -685,6 +799,7 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 895.77484
     speed: 2
     m_Value: 895.77484
@@ -693,6 +808,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 854.9386
 >>>>>>> Asia
+=======
+    m_Target: 1420.7091
+    speed: 2
+    m_Value: 1420.7091
+>>>>>>> Krysia
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -727,6 +847,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 254
     y: 92
     width: 753
@@ -737,6 +858,12 @@ MonoBehaviour:
     width: 733
     height: 343
 >>>>>>> Asia
+=======
+    x: 271
+    y: 92
+    width: 816
+    height: 343
+>>>>>>> Krysia
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
@@ -745,19 +872,19 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -376.5
-    m_HBaseRangeMax: 376.5
-    m_VBaseRangeMin: -171
-    m_VBaseRangeMax: 171
+    m_HBaseRangeMin: -300
+    m_HBaseRangeMax: 300
+    m_VBaseRangeMin: -512
+    m_VBaseRangeMax: 512
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoom: 0
     m_UniformScale: 1
     m_UpDirection: 1
@@ -765,6 +892,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< HEAD
 <<<<<<< HEAD
       width: 753
       height: 342
@@ -776,12 +904,19 @@ MonoBehaviour:
     m_Scale: {x: 0.31835938, y: 0.31835938}
     m_Translation: {x: 366.5, y: 163}
 >>>>>>> Asia
+=======
+      width: 816
+      height: 326
+    m_Scale: {x: 0.4214375, y: 0.4214375}
+    m_Translation: {x: 408, y: 133.40808}
+>>>>>>> Krysia
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
       x: -986.51636
       y: -448.05917
@@ -797,12 +932,22 @@ MonoBehaviour:
       y: -512
       width: 2302.4294
       height: 1024
+=======
+      x: -968.11505
+      y: -316.55484
+      width: 1936.2301
+      height: 773.5429
+>>>>>>> Krysia
     m_MinimalGUI: 1
   m_defaultScale: 0.31835938
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 733, y: 343}
 >>>>>>> Asia
+=======
+  m_LastWindowPixelSize: {x: 816, y: 343}
+>>>>>>> Krysia
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -828,7 +973,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 472
-    width: 1007
-    height: 234
+    x: 8
+    y: 718
+    width: 1366
+    height: 308

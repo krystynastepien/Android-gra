@@ -60,9 +60,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 940
+    x: 1089
     y: 0
-    width: 426
+    width: 277
     height: 635
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
@@ -87,7 +87,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 203
+    width: 269
     height: 364
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -112,7 +112,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 364
-    width: 940
+    width: 1089
     height: 271
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -121,7 +121,7 @@ MonoBehaviour:
   - {fileID: 13}
   - {fileID: 18}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -204,7 +204,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 940
+    width: 1089
     height: 635
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
@@ -228,7 +228,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 940
+    width: 1089
     height: 364
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
@@ -248,9 +248,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 203
+    x: 269
     y: 0
-    width: 737
+    width: 820
     height: 364
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -283,10 +283,10 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 270
-    y: 92
-    width: 814
-    height: 336
+    x: 468
+    y: 181
+    width: 973
+    height: 501
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -311,7 +311,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 456
-    width: 938
+    width: 1087
     height: 250
   m_SearchFilter:
     m_NameFilter: 
@@ -331,13 +331,20 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: D:\Repozytorium-AndroidGra\Android-gra\GraEdukacyjna
+  m_LastProjectPath: C:\Users\Krystyna\Desktop\Android-gra\GraEdukacyjna
   m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: 7c280000
     m_LastClickedID: 10364
     m_ExpandedIDs: 000000007c2800008e2800003a2c0000e62c0000ea2d0000c43200006c34000000ca9a3bffffff7f
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 44280000
+    m_LastClickedID: 10308
+    m_ExpandedIDs: 0000000044280000162e000000ca9a3bffffff7f
+>>>>>>> Krysia
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -365,7 +372,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 000000007c2800008e2800003a2c0000e62c0000ea2d0000c43200006c340000
+=======
+    m_ExpandedIDs: 0000000044280000162e0000
+>>>>>>> Krysia
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -393,18 +404,27 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300004ca2000000000000
+    m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
+<<<<<<< HEAD
       m_Name: Dodawanie
       m_OriginalName: Dodawanie
+=======
+      m_Name: LoseGameMnoz
+      m_OriginalName: LoseGameMnoz
+>>>>>>> Krysia
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
+<<<<<<< HEAD
       m_UserData: 12978
+=======
+      m_UserData: 12396
+>>>>>>> Krysia
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -417,9 +437,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 43}
+    m_ScrollPosition: {x: 0, y: 107}
     m_GridSize: 16
-  m_DirectoriesAreaWidth: 223
+  m_DirectoriesAreaWidth: 115
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -442,9 +462,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 942
+    x: 1091
     y: 92
-    width: 424
+    width: 275
     height: 614
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
@@ -477,13 +497,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 92
-    width: 201
+    width: 267
     height: 343
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 2a3c0000
     m_LastClickedID: 15402
     m_ExpandedIDs: 749bffffbcc1ffffd4c2ffffe6d0ffffcaf3ffffd8f7fffff8f8ffff3cfbffff00000000de380000fa38000090390000f03a0000303b0000e83b0000563c0000
+=======
+    m_SelectedIDs: b62f0000
+    m_LastClickedID: 0
+    m_ExpandedIDs: becfffffced0ffffd0d1ffffded2ffffeed3ffff00d5ffff1cd6ffff2cd7ffff5ad8ffff8cd9ffff9adaffff8ee0ffff6ee4ffff70e5ffff82e6ffffaae7ffffbee8ffffeee9fffffeeaffff32ecffff3cedffff48eeffff56efffffecefffff78f0ffff1ef4ffffe2f6ffffa8f7ffff2cf8ffffb0f8ffffb6f9ffffa6fbffff00000000
+>>>>>>> Krysia
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -499,7 +525,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 4}
+      m_ClientGUIView: {fileID: 0}
     m_SearchString: 
   m_ExpandedScenes:
   - NaukaScene
@@ -528,19 +554,29 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 205
+    x: 271
     y: 92
-    width: 733
+    width: 816
     height: 343
   m_SceneLighting: 1
+<<<<<<< HEAD
   lastFramingTime: 189.45889870761383
+=======
+  lastFramingTime: 132.0297779198838
+>>>>>>> Krysia
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 287.67285, y: 566.8567, z: 13.622857}
     speed: 2
     m_Value: {x: 287.67285, y: 566.8567, z: 13.622857}
+=======
+    m_Target: {x: 805.26654, y: 589.7751, z: 14.25}
+    speed: 2
+    m_Value: {x: 805.26654, y: 589.7751, z: 14.25}
+>>>>>>> Krysia
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -567,9 +603,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 590.1962
     speed: 2
     m_Value: 590.1962
+=======
+    m_Target: 1420.7091
+    speed: 2
+    m_Value: 1420.7091
+>>>>>>> Krysia
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -603,9 +645,9 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 205
+    x: 271
     y: 92
-    width: 733
+    width: 816
     height: 343
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -635,25 +677,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 733
+      width: 816
       height: 326
-    m_Scale: {x: 0.31835938, y: 0.31835938}
-    m_Translation: {x: 366.5, y: 163}
+    m_Scale: {x: 0.4214375, y: 0.4214375}
+    m_Translation: {x: 408, y: 133.40808}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1151.2147
-      y: -512
-      width: 2302.4294
-      height: 1024
+      x: -968.11505
+      y: -316.55484
+      width: 1936.2301
+      height: 773.5429
     m_MinimalGUI: 1
   m_defaultScale: 0.31835938
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 733, y: 343}
+  m_LastWindowPixelSize: {x: 816, y: 343}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -679,7 +721,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 449
-    width: 1084
-    height: 257
+    x: 8
+    y: 718
+    width: 1366
+    height: 308

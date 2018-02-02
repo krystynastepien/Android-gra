@@ -218,10 +218,10 @@
       <HintPath>Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.2-1.0.56-Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/oem/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
+      <HintPath>C:/Users/Krystyna/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Users/oem/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/Krystyna/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -232,16 +232,19 @@
     <Compile Include="Assets\Mobile Game GUI Vector Pack\DEMO_Scripts\DEMO_NavigationInformation.cs" />
     <Compile Include="Assets\Mobile Game GUI Vector Pack\DEMO_Scripts\DEMO_SceneNavigation.cs" />
     <Compile Include="Assets\Mobile Game GUI Vector Pack\DEMO_Scripts\DEMO_SoundManager.cs" />
+    <Compile Include="Assets\Scripts\CollisionScript.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\GameControllerMnoz.cs" />
     <Compile Include="Assets\Scripts\GameControllerOdejm.cs" />
+    <Compile Include="Assets\Scripts\GameOverScore.cs" />
     <Compile Include="Assets\Scripts\GameValues.cs" />
+    <Compile Include="Assets\Scripts\GraDzialaniaScript.cs" />
     <Compile Include="Assets\Scripts\LoseGame.cs" />
     <Compile Include="Assets\Scripts\LoseGameMnoz.cs" />
     <Compile Include="Assets\Scripts\LoseGameOdejm.cs" />
     <Compile Include="Assets\Scripts\MenuScript.cs" />
-    <Compile Include="Assets\Scripts\Quit.cs" />
     <Compile Include="Assets\Scripts\SwitchScript.cs" />
+    <Compile Include="Assets\Scripts\TimerScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

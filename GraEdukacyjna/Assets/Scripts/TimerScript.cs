@@ -10,7 +10,7 @@ public class TimerScript : MonoBehaviour {
     public GameObject rabbit;
     //public Image rabbit;
 
-    public GameObject spike;
+    public GameObject EndPoint;
     //public Image spike;
 
     private Vector3 StartPos;
@@ -20,24 +20,25 @@ public class TimerScript : MonoBehaviour {
 
 
     // w ile sekund ma sie przemiescic z pkt A do B
-    private float LerpTime = 3;
+    public float LerpTime;
 
     private float CurrentLerpTime = 0;   //updateuje LerpTime
 
     private bool KeyHit = false;
 
 
-    private void Start()
+        private void Start()
     {
         StartPos = rabbit.transform.position;
-        EndPos = spike.transform.position;
-        Button btn = BTStart.GetComponent<Button>();
+        EndPos = EndPoint.transform.position;
     }
 
 
     public void onStartButtonClick()
     {
+        if (KeyHit == false) { 
         KeyHit = true;
+        }
     }
 
 
@@ -46,21 +47,16 @@ public class TimerScript : MonoBehaviour {
         if(KeyHit == true)
         {
             CurrentLerpTime = CurrentLerpTime + Time.deltaTime;
-            if(CurrentLerpTime >= LerpTime)
-            {
-                CurrentLerpTime = LerpTime;
-            }
+           // if(CurrentLerpTime > LerpTime)
+            //{
+             //   CurrentLerpTime = LerpTime;
+           // }
 
             float Perc = CurrentLerpTime / LerpTime;
             rabbit.transform.position = Vector3.Lerp(StartPos, EndPos, Perc);
-
-           // if(rabbit.transform.position==spike.transform.position)
-           // {
-            //    SceneManager.LoadScene("GameOver");
-           // }
         }
     }
 
-    
+  
+    }
 
-}

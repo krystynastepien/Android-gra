@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/MenuScene.unity
+- path: Assets/Dodawanie.unity
   isLoaded: 1
   isActive: 1

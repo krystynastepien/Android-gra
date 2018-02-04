@@ -7,13 +7,13 @@ using UnityEngine.SceneManagement;
 public class GameOverScore : MonoBehaviour
 {
 
-    public Text currentScoreKrolikText;
+    public Text currentScoreKroilkText;
     public Text highScoreKrolikText;
 
     public void Start()
     {
 
-        currentScoreKrolikText.GetComponent<Text>().text = "SCORE " + GameValues.currentScore.ToString();
+        currentScoreKroilkText.GetComponent<Text>().text = "SCORE " + GameValues.currentScore.ToString();
         highScoreKrolikText.GetComponent<Text>().text = "HIGH SCORE " + PlayerPrefs.GetInt("HIGH_SCORE4", 0).ToString();
 
     }

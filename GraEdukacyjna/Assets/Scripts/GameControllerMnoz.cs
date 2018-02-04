@@ -17,9 +17,12 @@ public class GameControllerMnoz : MonoBehaviour
     private int mathMnozOperator; //znak operacji wykonywanej
     private int trueMnozResult;
     private int falseMnozResult;
+    private int falseMnozResult2;
+    private int falseMnozResult3;
     private int currentMnozScore; //punkty
     private int MnozHiScore;
-
+    private int Wyswietl;
+    private int porownaj;
 
     public void Start()
     {
@@ -32,19 +35,20 @@ public class GameControllerMnoz : MonoBehaviour
         rightMnozNumber = Random.Range(0, 9);
 
         mathMnozOperator = Random.Range(0, 1);
-
         switch (mathMnozOperator)
         {
-
             case 0:
                 trueMnozResult = leftMnozNumber * rightMnozNumber;
-                falseMnozResult = trueMnozResult + Random.Range(-2, 3);
+                falseMnozResult = trueMnozResult + Random.Range(-4, 4);
+                falseMnozResult2 = trueMnozResult + Random.Range(-4, 4);
+                falseMnozResult3 = trueMnozResult + Random.Range(-4, 4);
                 mathMnozText.GetComponent<Text>().text = leftMnozNumber.ToString() + "*" + rightMnozNumber.ToString();
-                resultMnozText.GetComponent<Text>().text = falseMnozResult.ToString();
-                break; //*
-
+                int[] wynik = { trueMnozResult, falseMnozResult2, falseMnozResult3 };
+                Wyswietl = Random.RandomRange(0, 2);
+                resultMnozText.GetComponent<Text>().text = wynik[Wyswietl].ToString();
+                porownaj = wynik[Wyswietl];
+                break; //+
         }
-
         scoreMnozText.GetComponent<Text>().text = currentMnozScore.ToString();
     }
 
@@ -62,7 +66,7 @@ public class GameControllerMnoz : MonoBehaviour
 
     public void onTrueMnozButtonClick()
     {
-        if (trueMnozResult == falseMnozResult)
+        if (trueMnozResult == porownaj)
         {
             currentMnozScore += 1;
             createMnozMath();
@@ -75,7 +79,7 @@ public class GameControllerMnoz : MonoBehaviour
     }
     public void onFalseOdejmButtonClick()
     {
-        if (trueMnozResult != falseMnozResult)
+        if (trueMnozResult != porownaj)
         {
             currentMnozScore += 1;
             createMnozMath();

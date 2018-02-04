@@ -6,7 +6,10 @@ using TMPro;
 
 public class GraDzialaniaScript : MonoBehaviour
 {
+    public GameObject rabbit;
 
+    private int Wyswietl;
+    private int porownaj;
 
     public Text mathText;
     public Text resultText;
@@ -17,15 +20,21 @@ public class GraDzialaniaScript : MonoBehaviour
     private int mathOperator; //znak operacji wykonywanej
     private int trueResult;
     private int falseResult;
+    private int falseResult2;
+    private int falseResult3;
     private int currentKrolikScore; //punkty
     private int HiScore;
-
 
     public void Start()
     {
         currentKrolikScore = 0;
         createMath();
     }
+
+    public void Update()
+    {
+    }
+
     public void createMath()
     {
         leftNumber = Random.Range(0, 9);
@@ -37,24 +46,39 @@ public class GraDzialaniaScript : MonoBehaviour
         {
 
             case 0:
-                trueResult = leftNumber * rightNumber;
-                falseResult = trueResult + Random.Range(-2, 3);
-                mathText.GetComponent<Text>().text = leftNumber.ToString() + "*" + rightNumber.ToString();
-                resultText.GetComponent<Text>().text = falseResult.ToString();
-                break; //*
+                trueResult = leftNumber - rightNumber;
+                falseResult = trueResult + Random.Range(-4, 4);
+                falseResult2 = trueResult + Random.Range(-4, 4);
+                falseResult3 = trueResult + Random.Range(-4, 4);
+                mathText.GetComponent<Text>().text = leftNumber.ToString() + "-" + rightNumber.ToString();
+                int[] wynik2 = { trueResult, falseResult2, falseResult3 };
+                Wyswietl = Random.RandomRange(0, 2);
+                resultText.GetComponent<Text>().text = wynik2[Wyswietl].ToString();
+                porownaj = wynik2[Wyswietl];
+                break; //-
 
             case 1:
                 trueResult = leftNumber + rightNumber;
-                falseResult = trueResult + Random.Range(-2, 3);
+                falseResult = trueResult + Random.Range(-4, 4);
+                falseResult2 = trueResult + Random.Range(-4, 4);
+                falseResult3 = trueResult + Random.Range(-4, 4);
                 mathText.GetComponent<Text>().text = leftNumber.ToString() + "+" + rightNumber.ToString();
-                resultText.GetComponent<Text>().text = falseResult.ToString();
-                break; //*
+                int[] wynik = { trueResult, falseResult2, falseResult3 };
+                Wyswietl = Random.RandomRange(0, 2);
+                resultText.GetComponent<Text>().text = wynik[Wyswietl].ToString();
+                porownaj = wynik[Wyswietl];
+                break; //+
 
             case 2:
-                trueResult = leftNumber - rightNumber;
-                falseResult = trueResult + Random.Range(-2, 3);
-                mathText.GetComponent<Text>().text = leftNumber.ToString() + "-" + rightNumber.ToString();
-                resultText.GetComponent<Text>().text = falseResult.ToString();
+                trueResult = leftNumber * rightNumber;
+                falseResult = trueResult + Random.Range(-4, 4);
+                falseResult2 = trueResult + Random.Range(-4, 4);
+                falseResult3 = trueResult + Random.Range(-4, 4);
+                mathText.GetComponent<Text>().text = leftNumber.ToString() + "*" + rightNumber.ToString();
+                int[] wynik3 = { trueResult, falseResult2, falseResult3 };
+                Wyswietl = Random.RandomRange(0, 2);
+                resultText.GetComponent<Text>().text = wynik3[Wyswietl].ToString();
+                porownaj = wynik3[Wyswietl];
                 break; //*
         }
 
@@ -75,20 +99,19 @@ public class GraDzialaniaScript : MonoBehaviour
 
     public void onTrueButtonClick()
     {
-        if (trueResult == falseResult)
-        {
+        if (trueResult == porownaj)
+        {   
             currentKrolikScore += 1;
             createMath();
         }
         else
         {
-
             LoseGameKrolik();
         }
     }
     public void onFalseButtonClick()
     {
-        if (trueResult != falseResult)
+        if (trueResult != porownaj)
         {
             currentKrolikScore += 1;
             createMath();

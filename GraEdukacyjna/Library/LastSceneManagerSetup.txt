@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/LoseGameOdejm.unity
+- path: Assets/GraScene.unity
   isLoaded: 1
   isActive: 1

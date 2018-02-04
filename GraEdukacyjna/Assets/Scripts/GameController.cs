@@ -15,7 +15,11 @@ public class GameController : MonoBehaviour {
     private int mathOperator; //znak operacji wykonywanej
     private int trueResult; 
     private int falseResult;
+    private int falseResult2;
+    private int falseResult3;
     private int currentScore; //punkty
+    private int Wyswietl;
+    private int porownaj;
 
 
     public void Start()
@@ -34,11 +38,15 @@ public class GameController : MonoBehaviour {
         {
             case 0:
                 trueResult = leftNumber + rightNumber;
-                falseResult = trueResult + Random.Range(-2, 3);
+                falseResult = trueResult + Random.Range(-4, 4);
+                falseResult2 = trueResult + Random.Range(-4, 4);
+                falseResult3= trueResult + Random.Range(-4, 4);
                 mathText.GetComponent<TextMeshProUGUI>().text = leftNumber.ToString() + "+" + rightNumber.ToString();
-                resultTekst.GetComponent<TextMeshProUGUI>().text = falseResult.ToString();
+                int[] wynik = { trueResult, falseResult2, falseResult3 };
+                Wyswietl = Random.RandomRange(0, 2);
+                resultTekst.GetComponent<TextMeshProUGUI>().text = wynik[Wyswietl].ToString();
+                porownaj = wynik[Wyswietl];
                 break; //+
-            
         }
 
         scoreText.GetComponent<Text>().text = currentScore.ToString();
@@ -58,7 +66,7 @@ public class GameController : MonoBehaviour {
 
 	public void onTrueButtonClick()
     {
-        if (trueResult == falseResult)
+        if (trueResult == porownaj )
         {
             currentScore += 1;
             createMath();
@@ -71,7 +79,7 @@ public class GameController : MonoBehaviour {
 
     public void onFalseButtonClick()
     {
-        if(trueResult != falseResult)
+        if(trueResult != porownaj)
         {
             currentScore += 1;
             createMath();

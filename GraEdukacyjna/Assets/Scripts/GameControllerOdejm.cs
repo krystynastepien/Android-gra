@@ -17,8 +17,12 @@ public class GameControllerOdejm : MonoBehaviour
     private int mathOdejmOperator; //znak operacji wykonywanej
     private int trueOdejmResult;
     private int falseOdejmResult;
+    private int falseOdejmResult2;
+    private int falseOdejmResult3;
     private int currentOdejmScore; //punkty
     private int OdejmHiScore;
+    private int Wyswietl;
+    private int porownaj;
 
 
     public void Start()
@@ -35,17 +39,21 @@ public class GameControllerOdejm : MonoBehaviour
 
         switch (mathOdejmOperator)
         {
-            
+
             case 0:
                 trueOdejmResult = leftOdejmNumber - rightOdejmNumber;
-                falseOdejmResult = trueOdejmResult + Random.Range(-2, 3);
+                falseOdejmResult = trueOdejmResult + Random.Range(-4, 4);
+                falseOdejmResult2 = trueOdejmResult + Random.Range(-4, 4);
+                falseOdejmResult3 = trueOdejmResult + Random.Range(-4, 4);
                 mathOdejmText.GetComponent<Text>().text = leftOdejmNumber.ToString() + "-" + rightOdejmNumber.ToString();
-                resultOdejmText.GetComponent<Text>().text = falseOdejmResult.ToString();
-                break; //-
-            
+                int[] wynik = { trueOdejmResult, falseOdejmResult2, falseOdejmResult3 };
+                Wyswietl = Random.RandomRange(0, 2);
+                resultOdejmText.GetComponent<Text>().text = wynik[Wyswietl].ToString();
+                porownaj = wynik[Wyswietl];
+                break; //+
         }
 
-        scoreOdejmText.GetComponent<Text>().text = currentOdejmScore.ToString();
+                scoreOdejmText.GetComponent<Text>().text = currentOdejmScore.ToString();
     }
 
     public void LoseGameOdejm()
@@ -62,7 +70,7 @@ public class GameControllerOdejm : MonoBehaviour
 
     public void onTrueOdejmButtonClick()
     {
-        if (trueOdejmResult == falseOdejmResult)
+        if (trueOdejmResult == porownaj)
         {
             currentOdejmScore += 1;
             createOdejmMath();
@@ -75,7 +83,7 @@ public class GameControllerOdejm : MonoBehaviour
     }
     public void onFalseOdejmButtonClick()
     {
-        if(trueOdejmResult != falseOdejmResult)
+        if(trueOdejmResult != porownaj)
         {
             currentOdejmScore += 1;
             createOdejmMath();

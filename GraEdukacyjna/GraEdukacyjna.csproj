@@ -232,6 +232,7 @@
     <Compile Include="Assets\Mobile Game GUI Vector Pack\DEMO_Scripts\DEMO_NavigationInformation.cs" />
     <Compile Include="Assets\Mobile Game GUI Vector Pack\DEMO_Scripts\DEMO_SceneNavigation.cs" />
     <Compile Include="Assets\Mobile Game GUI Vector Pack\DEMO_Scripts\DEMO_SoundManager.cs" />
+    <Compile Include="Assets\Scripts\ClickSound.cs" />
     <Compile Include="Assets\Scripts\CollisionScript.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\GameControllerMnoz.cs" />

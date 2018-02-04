@@ -1305,6 +1305,7 @@ GameObject:
   - component: {fileID: 1898797351}
   - component: {fileID: 1898797354}
   - component: {fileID: 1898797353}
+  - component: {fileID: 1898797356}
   - component: {fileID: 1898797352}
   - component: {fileID: 1898797355}
   m_Layer: 5
@@ -1441,7 +1442,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit: {fileID: 709012635}
   EndPoint: {fileID: 1544770534}
+<<<<<<< HEAD
   LerpTime: 30
+=======
+  LerpTime: 15
+--- !u!114 &1898797356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1898797350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14073bb708fa47344941915f359c702f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
+>>>>>>> MASTER-NIE-RUSZAC-BO-ZABIJE-XD
 --- !u!1 &1909361741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1526,6 +1543,7 @@ GameObject:
   - component: {fileID: 1954815915}
   - component: {fileID: 1954815918}
   - component: {fileID: 1954815917}
+  - component: {fileID: 1954815920}
   - component: {fileID: 1954815916}
   - component: {fileID: 1954815919}
   m_Layer: 5
@@ -1662,7 +1680,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit: {fileID: 709012635}
   EndPoint: {fileID: 1544770534}
+<<<<<<< HEAD
   LerpTime: 30
+=======
+  LerpTime: 15
+--- !u!114 &1954815920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1954815914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14073bb708fa47344941915f359c702f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
+>>>>>>> MASTER-NIE-RUSZAC-BO-ZABIJE-XD
 --- !u!1 &2022724374
 GameObject:
   m_ObjectHideFlags: 0

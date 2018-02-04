@@ -20,18 +20,14 @@ public class GraDzialaniaScript : MonoBehaviour
     private int mathOperator; //znak operacji wykonywanej
     private int trueResult;
     private int falseResult;
-<<<<<<< HEAD
     private int falseResult2;
     private int falseResult3;
     private int currentScore; //punkty
-=======
-    private int currentKrolikScore; //punkty
->>>>>>> MASTER-NIE-RUSZAC-BO-ZABIJE-XD
     private int HiScore;
 
     public void Start()
     {
-        currentKrolikScore = 0;
+        currentScore = 0;
         createMath();
     }
 
@@ -86,16 +82,16 @@ public class GraDzialaniaScript : MonoBehaviour
                 break; //*
         }
 
-        scoreText.GetComponent<Text>().text = currentKrolikScore.ToString();
+        scoreText.GetComponent<Text>().text = currentScore.ToString();
     }
 
-    public void LoseGameKrolik()
+    public void LoseGame()
     {
-        GameValues.currentScore = currentKrolikScore;
-        int highScoreKrolik = PlayerPrefs.GetInt("HIGH_SCORE4", 0);
-        if (currentKrolikScore > highScoreKrolik)
+        GameValues.currentScore = currentScore;
+        int highScore = PlayerPrefs.GetInt("HIGH_SCORE3", 0);
+        if (currentScore > highScore)
         {
-            PlayerPrefs.SetInt("HIGH_SCORE4", currentKrolikScore);
+            PlayerPrefs.SetInt("HIGH_SCORE3", currentScore);
         }
         Application.LoadLevel("GameOver");
 
@@ -103,37 +99,26 @@ public class GraDzialaniaScript : MonoBehaviour
 
     public void onTrueButtonClick()
     {
-<<<<<<< HEAD
         if (trueResult == porownaj)
         {   
             currentScore += 1;
-=======
-        if (trueResult == falseResult)
-        {
-            currentKrolikScore += 1;
->>>>>>> MASTER-NIE-RUSZAC-BO-ZABIJE-XD
             createMath();
         }
         else
         {
-<<<<<<< HEAD
             LoseGame();
-=======
-
-            LoseGameKrolik();
->>>>>>> MASTER-NIE-RUSZAC-BO-ZABIJE-XD
         }
     }
     public void onFalseButtonClick()
     {
         if (trueResult != porownaj)
         {
-            currentKrolikScore += 1;
+            currentScore += 1;
             createMath();
         }
         else
         {
-            LoseGameKrolik();
+            LoseGame();
         }
     }
 

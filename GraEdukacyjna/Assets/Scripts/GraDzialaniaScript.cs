@@ -17,13 +17,13 @@ public class GraDzialaniaScript : MonoBehaviour
     private int mathOperator; //znak operacji wykonywanej
     private int trueResult;
     private int falseResult;
-    private int currentScore; //punkty
+    private int currentKrolikScore; //punkty
     private int HiScore;
 
 
     public void Start()
     {
-        currentScore = 0;
+        currentKrolikScore = 0;
         createMath();
     }
     public void createMath()
@@ -58,16 +58,16 @@ public class GraDzialaniaScript : MonoBehaviour
                 break; //*
         }
 
-        scoreText.GetComponent<Text>().text = currentScore.ToString();
+        scoreText.GetComponent<Text>().text = currentKrolikScore.ToString();
     }
 
-    public void LoseGame()
+    public void LoseGameKrolik()
     {
-        GameValues.currentScore = currentScore;
-        int highScore = PlayerPrefs.GetInt("HIGH_SCORE3", 0);
-        if (currentScore > highScore)
+        GameValues.currentScore = currentKrolikScore;
+        int highScoreKrolik = PlayerPrefs.GetInt("HIGH_SCORE4", 0);
+        if (currentKrolikScore > highScoreKrolik)
         {
-            PlayerPrefs.SetInt("HIGH_SCORE3", currentScore);
+            PlayerPrefs.SetInt("HIGH_SCORE4", currentKrolikScore);
         }
         Application.LoadLevel("GameOver");
 
@@ -77,25 +77,25 @@ public class GraDzialaniaScript : MonoBehaviour
     {
         if (trueResult == falseResult)
         {
-            currentScore += 1;
+            currentKrolikScore += 1;
             createMath();
         }
         else
         {
 
-            LoseGame();
+            LoseGameKrolik();
         }
     }
     public void onFalseButtonClick()
     {
         if (trueResult != falseResult)
         {
-            currentScore += 1;
+            currentKrolikScore += 1;
             createMath();
         }
         else
         {
-            LoseGame();
+            LoseGameKrolik();
         }
     }
 

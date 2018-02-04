@@ -21,14 +21,13 @@ public class TimerScript : MonoBehaviour {
 
     // w ile sekund ma sie przemiescic z pkt A do B
     public float LerpTime;
-
-    private float CurrentLerpTime = 0;   //updateuje LerpTime
-
-    private bool KeyHit = false;
+    private float CurrentLerpTime = 0;   //updateuje LerpTim
+    private bool KeyHit;
 
 
         private void Start()
     {
+        KeyHit = false;
         StartPos = rabbit.transform.position;
         EndPos = EndPoint.transform.position;
     }
@@ -37,7 +36,7 @@ public class TimerScript : MonoBehaviour {
     public void onStartButtonClick()
     {
         if (KeyHit == false) { 
-        KeyHit = true;
+            KeyHit = true;
         }
     }
 
@@ -47,11 +46,6 @@ public class TimerScript : MonoBehaviour {
         if(KeyHit == true)
         {
             CurrentLerpTime = CurrentLerpTime + Time.deltaTime;
-           // if(CurrentLerpTime > LerpTime)
-            //{
-             //   CurrentLerpTime = LerpTime;
-           // }
-
             float Perc = CurrentLerpTime / LerpTime;
             rabbit.transform.position = Vector3.Lerp(StartPos, EndPos, Perc);
         }
